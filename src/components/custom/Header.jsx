@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from '../ui/button'
 import { Link } from 'react-router-dom'
 import { UserButton, useUser } from '@clerk/clerk-react'
-import Logo from '../../assets/logo.jpg'
+import Logo from '../../assets/Logo.jpg'
 
 function Header() {
     const { user, isSignedIn } = useUser();

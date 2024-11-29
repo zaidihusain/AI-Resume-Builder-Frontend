@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
     {
-      path:'/Dashboard',
+      path:'/dashboard',
       element: <Dashboard/>
       
     },
